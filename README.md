@@ -25,16 +25,12 @@ to characterize beam displacement, sensitivity limits, and noise behavior.
 A modulated heat source generates a **temperature gradient in air**, producing a spatial variation
 of the refractive index:
 
-\[
-n(T) \quad \Rightarrow \quad \frac{\partial n}{\partial T} \neq 0
-\]
+$$ n(T) \quad \Rightarrow \quad \frac{\partial n}{\partial T} \neq 0 $$
 
 This gradient deflects the laser beam:
 
-\[
-\theta = \frac{1}{n} \frac{\partial n}{\partial T}
-\int \frac{\partial T}{\partial y} \, dy
-\]
+$$ \theta = \frac{1}{n} \frac{\partial n}{\partial T}
+\int \frac{\partial T}{\partial y} \, dy $$ 
 
 where:
 
@@ -50,9 +46,7 @@ The deflection is converted through a **three-stage transduction process**:
 
 ### 1️⃣ Angular → Spatial Shift
 
-\[
-\Delta y = L \cdot \Delta \theta
-\]
+$$ \Delta y = L \cdot \Delta \theta $$
 
 - \( L \) : propagation distance  
 
@@ -109,11 +103,9 @@ Noise spectral decomposition:
 
 Temperature field under harmonic excitation:
 
-\[
-T(y,t) =
+$$ T(y,t) =
 T_0 e^{-y/L_a}
-\cos\left(2\pi f t - \frac{y}{\lambda_T} + \phi \right)
-\]
+\cos\left(2\pi f t - \frac{y}{\lambda_T} + \phi \right) $$
 
 Measured quantities:
 
